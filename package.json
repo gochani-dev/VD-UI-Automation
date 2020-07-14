@@ -1,0 +1,22 @@
+{
+  "name": "vd-ui-automation-dependencies",
+  "version": "1.0.0",
+  "description": "dependencies list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gochani-dev/VD-UI-Automation.git"
+  },
+  "author": "gochani-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gochani-dev/VD-UI-Automation/issues"
+  },
+  "homepage": "https://github.com/gochani-dev/VD-UI-Automation#readme",
+  "dependencies": {
+    "protractor-stop-describe-on-failure": "^1.0.4"
+  }
+}
