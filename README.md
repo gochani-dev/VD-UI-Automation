@@ -26,6 +26,8 @@ This can be integrated in any CICD pipeline if required. However, following are 
 
 3. Test execution should begin now. After completing the tests, HTML report can be seen here: VD-UI-Automation/configs/reports_new
 
+4. Short Video recording for test execution: <https://drive.google.com/file/d/1-a7OP5bc6aobdouSsDpMZ_1EVLicTrr3/view>
+
 # Contribute
 Contribution from outside teams are not required since this project is intended only for mock testing purpose.
 
