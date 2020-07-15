@@ -3,8 +3,9 @@ var utilities = function () {
     this.clickElement = function (element, logMessage) {
         browser.sleep(750)
         var msgPrefix = "clicking "
-        console.log(msgPrefix + logMessage)
-        return element.click()
+        return element.click().then(function () {
+            console.log(msgPrefix + logMessage)
+        })
     }
 
     this.getTextValue = function (element, logMessage) {

@@ -31,13 +31,13 @@ var landingPageMethods = function () {
             baseVD.utilities().clickElement(baseVD.landingPageElements().selectValuesofChildren(childrenCount), "no of children")
             baseVD.utilities().clickElement(baseVD.landingPageElements().childerenAgeDropdown(), "age dropdown")
             browser.wait(EC.elementToBeClickable(baseVD.landingPageElements().childrenAge(age), 5000))
-            baseVD.utilities().clickElement(baseVD.landingPageElements().childrenAge(age), "age")
+            baseVD.utilities().clickElement(baseVD.landingPageElements().childrenAge(age), "age value")
         }
         //hit more options & select hotel star {This is a bug on web application that selecting star rating on "More Options ++ link" doesn't list hotels in search hotel page.}
         baseVD.utilities().clickElement(baseVD.landingPageElements().hotelOptionsLink(), "option link")
         browser.sleep(1000)
         baseVD.utilities().clickElement(baseVD.landingPageElements().starRatingDropdown(), "star rating dropdown")
-        baseVD.utilities().clickElement(baseVD.landingPageElements().selectHotelRating(starCount), "star rating dropdown")
+        baseVD.utilities().clickElement(baseVD.landingPageElements().selectHotelRating(starCount), "star rating value")
         browser.sleep(1000)
         baseVD.utilities().clickElement(baseVD.landingPageElements().hotelSearchButton(), "search hotel button")
 
