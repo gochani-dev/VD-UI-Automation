@@ -12,7 +12,7 @@ var capabilities = {
 exports.config = {
     framework: 'jasmine',
     //directConnect: true,
-    specs: ['spec.js'],
+    specs: ['../tests/spec.js'],
 
     allScriptsTimeout: 25000,
     capabilities: capabilities,
