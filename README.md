@@ -18,7 +18,13 @@ Clone this repository. And then below are the steps, dependencies and installati
 Note: For reference, please take a look on protractor installation on official website: <https://www.protractortest.org/#/tutorial>
 
 # Build and Test
-This can be integrated in CICD pipeline if required. 
+This can be integrated in any CICD pipeline if required. However, following are the steps to execute tests on your local agent:
+
+1. Once you have cloned the repository, go to config folder
+
+2. Run protractor command < protractor conf.js >
+
+3. Test execution should begin now. After completing the tests, HTML report can be seen here: VD-UI-Automation/configs/reports_new
 
 # Contribute
 Contribution from outside teams are not required since this project is intended only for mock testing purpose.
